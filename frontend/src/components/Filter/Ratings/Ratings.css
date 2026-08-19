@@ -1,0 +1,15 @@
+.rating-container{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.star{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    height: 3rem;
+    width: 5rem;
+}
+

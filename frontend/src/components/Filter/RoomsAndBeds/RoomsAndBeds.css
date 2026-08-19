@@ -1,0 +1,39 @@
+.label-container{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.span-label-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.span-label{
+    font-size: 1.25rem;
+
+}
+
+.aminity-count{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: 1px solid var(--text-color-primary);
+    border-radius: 4px;
+    color: var(--accent-color);
+    width: 2.875rem;
+    height: 2rem;
+    margin-right: 1rem;
+}
+
+.aminity-count:hover{
+    color: var(--background-color);
+    background-color: var(--text-color-primary);
+}
+
+.aminity-count.selected {
+    color: var(--background-color);
+    background-color: var(--text-color-primary);
+}
