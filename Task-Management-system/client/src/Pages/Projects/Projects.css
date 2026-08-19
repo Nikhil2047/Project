@@ -1,0 +1,52 @@
+.main{
+    height: 95vh;
+    background-color: #7AB2B2;
+}
+
+
+.projects{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.projects h1{
+    margin-bottom: 20px;
+    margin-top: 60px;
+    font-size: 60px;
+}
+
+.projects button{
+    margin-bottom: 60px;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+.projects button:hover{
+    cursor: pointer;
+}
+
+
+
+.projectsModal{
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 600px;
+    max-width: 90%;    
+}
+
+.projectsOverlay{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.389);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
