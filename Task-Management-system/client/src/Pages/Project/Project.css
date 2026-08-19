@@ -1,0 +1,30 @@
+.main{
+    height: 95vh;
+    background-color: #7AB2B2;
+}
+
+
+.project{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.project h1{
+    margin-bottom: 20px;
+    margin-top: 60px;
+    font-size: 60px;
+}
+
+.project button{
+    margin-bottom: 60px;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+.project button:hover{
+    cursor: pointer;
+}
