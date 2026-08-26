@@ -1,0 +1,61 @@
+.filter-modal{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    background-color: var(--overlay);
+    padding-bottom: 4rem;
+}
+
+.filter-page{
+    background-color: var(--background-color);
+    padding: 2rem 3rem;
+    margin: 3rem 0;
+    transform: translate(70%,0);
+    width: max-content;
+    height: 100%;
+    overflow: auto;
+    box-shadow: 2px 2px 5px 4px rgba(0,0,0,0.1);
+}
+
+.filter-page-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn-close{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2rem;
+    width: 2rem;
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+
+.btn-close:hover{
+    background-color: var(--accent-color);
+    border-radius: 50%;
+}
+
+.clearall-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.button.btn-link-primary{
+    font-size: 1.5rem;
+    border-bottom: 1px solid var(--text-color-primary);
+    border-radius: 0;
+    padding: 0;
+}
+
+.button.btn-apply{
+    font-size: 1.5rem;
+    font-weight: normal;
+    padding: 8px 1.5rem;
+}
