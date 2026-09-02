@@ -2,7 +2,8 @@
 .auth-container{
     height: 100vh;
     width: 100%;
-    background-image: url("https://images.unsplash.com/photo-1509803874385-db7c23652552?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    padding-top: 50px;
+    background-image: url("../../assets/images/blank-blue-halftone-background_53876-114592.avif");
     background-size: cover;
     display: flex;
     align-items: center;
@@ -11,9 +12,9 @@
 
 .auth-container form{
     width: 500px;
-    border: 2px solid rgba(255, 255, 255, 0.405);
+    border: 2px solid rgba(46, 31, 31, 0.405);
     text-align: center;
-    padding-top: 30px;
+    padding-top: 10px;
     padding-bottom: 30px;
     backdrop-filter: blur(5px);
     border-radius: 20px;
@@ -33,7 +34,7 @@
     outline: none;
     border-bottom: 2px solid rgba(11, 11, 11, 0.505);
     font-size: 20px;
-    color: white;
+    color: black;
     padding-bottom: 20px;
 }
 
@@ -53,6 +54,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: black;
+    color: white;
 }
 
 .auth-container p{

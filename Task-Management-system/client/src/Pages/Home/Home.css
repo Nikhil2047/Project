@@ -2,21 +2,19 @@
     height: 100%;
     width: 100%;
     object-fit: cover;
-    
 }
 
 .container{
    /* height: 90vh;
    width: 100%; */
-   background-color: #09637E;
+   background: #f8fafc;
    padding: 100px;
-   color: white;
+   color: black;
 }
 
 .manager-container{
    /* height: 100vh;
    width: 100%; */
-   background-color: #088395;
    padding: 100px;
    color: white;
 }
@@ -51,6 +49,7 @@
 .manager-container p{
     margin-left: 700px;
     font-size: 30px;
+    color: black;
 }
 
 .container h1{
@@ -65,9 +64,9 @@
 .mem-container{
    /* height: 100vh;
    width: 100%; */
-   background-color: #7AB2B2;
    padding: 100px;
-   color: white;
+   color: black;
+   background: #edf5fc;
 }
 
 

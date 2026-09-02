@@ -53,11 +53,9 @@ const Login = ({toggleNow}) => {
   return (
     <div className='auth-container'>
             <form>
-            <h1>Login</h1>
+            <h1>LOGIN</h1>
             <input ref={emailRef} type="email" placeholder='Enter your email' />
-            <br />
             <input ref={pwdRef} type="password" placeholder='Enter your password' />
-            <br />
             <button onClick={login}>
               {""}
               {!loading ? (<span>Login</span>):(
@@ -75,8 +73,7 @@ const Login = ({toggleNow}) => {
                   />)
               )}
             </button>
-            <br />
-            <p>Don't have account? <span onClick={toggleNow}>Signup</span></p>
+            <p>Don't have account? <span onClick={toggleNow}>Register</span></p>
         </form>
     </div>
   )

@@ -43,21 +43,16 @@ const Signup = ({toggleNow}) => {
    return (
     <div className='auth-container'>
             <form>
-            <h1>SignUp</h1>
+            <h1>REGISTER</h1>
             <input ref={nameRef} type="name" placeholder='Enter your name' />
-            <br />
             <input ref={emailRef} type="email" placeholder='Enter your email' />
-            <br />
             <input ref={pwdRef} type="password" placeholder='Enter your password' />
-            <br />
             <p>Select your UserType</p>
-            <br />
             <select ref={userType} onChange={(e)=>e.target.value}>
               <option value={1}>1</option>
               <option value={2}>2</option>
               <option value={3}>3</option>
             </select>
-            <br />
             <button onClick={Signup}>
                           {""}
                           {!loading ? (<span>Register</span>):(
@@ -75,7 +70,6 @@ const Signup = ({toggleNow}) => {
                               />)
                           )}
                         </button>
-            <br />
             <p>Already have an account? <span onClick={toggleNow}>Login</span></p>
         </form>
     </div>

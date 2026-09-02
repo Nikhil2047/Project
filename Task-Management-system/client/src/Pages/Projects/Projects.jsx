@@ -98,7 +98,7 @@ const Projects = () => {
     <div className='main'>
       <div className='projects'>
         <h1>Projects</h1>
-        {user.userType == 1 &&  (<button onClick={()=>setOpen(true)}>Add Project</button>)}
+        {user.userType == 1 &&  (<button className='modal-btn' onClick={()=>setOpen(true)}>Add Project</button>)}
       </div>
       <ProjectsComp projects={projects}/>
 
@@ -119,7 +119,7 @@ const Projects = () => {
         </select>
         <br />
         <br />
-        <button onClick={createProject}>Create Project</button>
+        <button className='modal-btn' onClick={createProject}>Create Project</button>
       </Modal>)}
     </div>
   )

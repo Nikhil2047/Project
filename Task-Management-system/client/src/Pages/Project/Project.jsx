@@ -111,7 +111,7 @@ const Project = () => {
               </select>
               <br />
               <br />
-              <button onClick={createTask}>Create Task</button>
+              <button className='modal-btn' onClick={createTask}>Create Task</button>
             </Modal>)}
     </div>
   )

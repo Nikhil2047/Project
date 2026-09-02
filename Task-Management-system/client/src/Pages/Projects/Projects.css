@@ -1,6 +1,7 @@
 .main{
-    height: 95vh;
-    background-color: #7AB2B2;
+    height: 100vh;
+    background: #6464a1;
+    background: linear-gradient(90deg, rgba(100, 100, 161, 1) 0%, rgba(7, 250, 246, 1) 65%);
 }
 
 
@@ -23,6 +24,15 @@
     padding: 10px;
     border: none;
     border-radius: 10px;
+}
+
+.modal-btn{
+    background-color: black;
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
 }
 
 .projects button:hover{

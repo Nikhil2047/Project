@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Home.css"
+import Footer from '../../Components/Footer/Footer'
 
 
 const Home = () => {
@@ -29,7 +30,8 @@ const Home = () => {
            and update the status</p>
         <img src="https://plus.unsplash.com/premium_photo-1661778490723-371305b4fb06?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bWVldGluZ3xlbnwwfHwwfHx8MA%3D%3D" alt="" />
       </div>
-    </div>
+      <Footer/>
+    </div>  
   )
 }
 
