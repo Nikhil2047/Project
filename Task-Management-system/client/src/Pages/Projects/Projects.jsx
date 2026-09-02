@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react'
 import Modal from "react-modal"
-import "./projects.css"
+import "./Projects.css"
 import axios from '../../utils/axios'
 import {toast} from "react-toastify"
 import ProjectsComp from '../../Components/Common/ProjectsComp/ProjectsComp'
