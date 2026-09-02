@@ -1,6 +1,6 @@
 import React from 'react'
 import {Link} from "react-router"
-import "./commentComp.css"
+import "./CommentComp.css"
 
 const CommentComp = ({comments}) => {
   return (

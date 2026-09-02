@@ -1,5 +1,5 @@
 import React from 'react'
-import "./taskComp.css"
+import "./TaskComp.css"
 import { Link } from 'react-router'
 
 
